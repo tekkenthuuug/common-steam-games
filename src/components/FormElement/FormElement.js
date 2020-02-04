@@ -77,9 +77,7 @@ export class FormElement extends Component {
 					usersClone[id] = { ...initialUser };
 					usersClone[id].name = "Not Found";
 				}
-				this.setState({ users: usersClone }, () => {
-					console.log(this.state);
-				});
+				this.setState({ users: usersClone });
 			});
 	};
 
