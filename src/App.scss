@@ -1,0 +1,19 @@
+.container {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  color: #D9D491;
+  font-size: 1.5em;
+  @media (max-width: 1240px) {
+    text-align: center;
+    font-size: 1em;
+  }
+  @media (max-width: 500px) {
+    font-size: .8em;
+  }
+}

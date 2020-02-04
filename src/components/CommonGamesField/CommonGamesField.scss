@@ -1,0 +1,28 @@
+.dgrid {
+  margin: auto;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(292px, 1fr));
+  grid-gap: 16px;
+  max-width: 70%;
+  @media (max-width: 500px) {
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  }
+}
+
+.back-button {
+  background-color: rgb(109, 106, 71);
+  color: #ffffff;
+  height: 40px;
+  padding: 10px;
+  width: 30%;
+  margin-top: 16px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s linear;
+  &:hover {
+    background-color: rgba(233, 228, 155, 0.5);
+  }
+}

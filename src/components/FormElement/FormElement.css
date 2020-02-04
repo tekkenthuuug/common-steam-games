@@ -1,0 +1,90 @@
+.form-box {
+  margin-top: 20px;
+  width: 60%;
+  -webkit-box-shadow: inset rgba(0, 0, 0, 0.2) 10px 10px 10px, inset rgba(0, 0, 0, 0.1) -10px -10px 10px;
+          box-shadow: inset rgba(0, 0, 0, 0.2) 10px 10px 10px, inset rgba(0, 0, 0, 0.1) -10px -10px 10px;
+  padding: 25px 5%;
+  background-color: #2a3940;
+}
+
+@media (max-width: 720px) {
+  .form-box {
+    width: 75%;
+  }
+}
+
+@media (max-width: 500px) {
+  .form-box {
+    width: 100%;
+    -webkit-box-shadow: inset rgba(0, 0, 0, 0.2) 0px 10px 10px, inset rgba(0, 0, 0, 0.1) 0px -10px 10px;
+            box-shadow: inset rgba(0, 0, 0, 0.2) 0px 10px 10px, inset rgba(0, 0, 0, 0.1) 0px -10px 10px;
+  }
+}
+
+.button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+}
+
+@media (max-width: 1240px) {
+  .button-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.add-button {
+  background-color: rgba(217, 212, 145, 0.2);
+  color: rgba(255, 255, 255, 0.5);
+  width: calc(45% - 32px);
+  height: 40px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.add-button:hover {
+  background-color: #3da13d;
+  color: #ffffff;
+}
+
+@media (max-width: 1240px) {
+  .add-button {
+    width: 80%;
+  }
+}
+
+.fetch-button {
+  background-color: #6d6a47;
+  color: #ffffff;
+  height: 40px;
+  width: calc(45% - 32px);
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.fetch-button:hover {
+  background-color: rgba(233, 228, 155, 0.5);
+}
+
+@media (max-width: 1240px) {
+  .fetch-button {
+    margin-top: 10px;
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=FormElement.css.map */

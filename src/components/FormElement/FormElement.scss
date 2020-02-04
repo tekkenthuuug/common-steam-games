@@ -1,0 +1,59 @@
+.form-box {
+  margin-top: 20px;
+  width: 60%;
+  box-shadow: inset rgba(0, 0, 0, 0.2) 10px 10px 10px, inset rgba(0, 0, 0, 0.1) -10px -10px 10px;
+  padding: 25px 5%;
+  background-color: rgb(42, 57, 64);
+  @media (max-width: 720px) {
+    width: 75%;
+  }
+  @media (max-width: 500px) {
+    width: 100%;
+    box-shadow: inset rgba(0, 0, 0, 0.2) 0px 10px 10px, inset rgba(0, 0, 0, 0.1) 0px -10px 10px;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  @media (max-width: 1240px) {
+    flex-direction: column;
+  }
+}
+
+.add-button {
+  background-color: rgba(217, 212, 145, 0.2);
+  color: rgba(255, 255, 255, 0.5);
+  width: calc(45% - 32px);
+  height: 40px;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  &:hover {
+    background-color: rgba(61, 161, 61, 1);
+    color: #ffffff;
+  }
+  @media (max-width: 1240px) {
+    width: 80%;
+  }
+}
+
+.fetch-button {
+  background-color: rgb(109, 106, 71);
+  color: #ffffff;
+  height: 40px;
+  width: calc(45% - 32px);
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s linear;
+  &:hover {
+    background-color: rgba(233, 228, 155, 0.5);
+  }
+  @media (max-width: 1240px) {
+    margin-top: 10px;
+    width: 80%;
+  }
+}
