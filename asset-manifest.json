@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/common-steam-games/static/css/main.110a9e01.chunk.css",
-    "main.js": "/common-steam-games/static/js/main.f344e815.chunk.js",
-    "main.js.map": "/common-steam-games/static/js/main.f344e815.chunk.js.map",
-    "runtime-main.js": "/common-steam-games/static/js/runtime-main.55657124.js",
-    "runtime-main.js.map": "/common-steam-games/static/js/runtime-main.55657124.js.map",
+    "main.css": "/common-steam-games/static/css/main.81265a66.chunk.css",
+    "main.js": "/common-steam-games/static/js/main.860c42f9.chunk.js",
+    "main.js.map": "/common-steam-games/static/js/main.860c42f9.chunk.js.map",
+    "runtime-main.js": "/common-steam-games/static/js/runtime-main.c5a1b2df.js",
+    "runtime-main.js.map": "/common-steam-games/static/js/runtime-main.c5a1b2df.js.map",
     "static/js/2.e1c1ad51.chunk.js": "/common-steam-games/static/js/2.e1c1ad51.chunk.js",
     "static/js/2.e1c1ad51.chunk.js.map": "/common-steam-games/static/js/2.e1c1ad51.chunk.js.map",
-    "static/css/3.09eff677.chunk.css": "/common-steam-games/static/css/3.09eff677.chunk.css",
-    "static/js/3.a3dae030.chunk.js": "/common-steam-games/static/js/3.a3dae030.chunk.js",
-    "static/js/3.a3dae030.chunk.js.map": "/common-steam-games/static/js/3.a3dae030.chunk.js.map",
+    "static/css/3.e8c5070c.chunk.css": "/common-steam-games/static/css/3.e8c5070c.chunk.css",
+    "static/js/3.592afe57.chunk.js": "/common-steam-games/static/js/3.592afe57.chunk.js",
+    "static/js/3.592afe57.chunk.js.map": "/common-steam-games/static/js/3.592afe57.chunk.js.map",
     "index.html": "/common-steam-games/index.html",
-    "precache-manifest.26e176bb7eb656c41f778605af306343.js": "/common-steam-games/precache-manifest.26e176bb7eb656c41f778605af306343.js",
+    "precache-manifest.719907f715ae79dfdf8fd1e53141e260.js": "/common-steam-games/precache-manifest.719907f715ae79dfdf8fd1e53141e260.js",
     "service-worker.js": "/common-steam-games/service-worker.js",
-    "static/css/3.09eff677.chunk.css.map": "/common-steam-games/static/css/3.09eff677.chunk.css.map",
-    "static/css/main.110a9e01.chunk.css.map": "/common-steam-games/static/css/main.110a9e01.chunk.css.map",
+    "static/css/3.e8c5070c.chunk.css.map": "/common-steam-games/static/css/3.e8c5070c.chunk.css.map",
+    "static/css/main.81265a66.chunk.css.map": "/common-steam-games/static/css/main.81265a66.chunk.css.map",
     "static/js/2.e1c1ad51.chunk.js.LICENSE": "/common-steam-games/static/js/2.e1c1ad51.chunk.js.LICENSE",
-    "static/media/close.svg": "/common-steam-games/static/media/close.88ca3965.svg"
+    "static/media/close.svg": "/common-steam-games/static/media/close.88ca3965.svg",
+    "static/media/steamBlured.png": "/common-steam-games/static/media/steamBlured.971b8f57.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.55657124.js",
+    "static/js/runtime-main.c5a1b2df.js",
     "static/js/2.e1c1ad51.chunk.js",
-    "static/css/main.110a9e01.chunk.css",
-    "static/js/main.f344e815.chunk.js"
+    "static/css/main.81265a66.chunk.css",
+    "static/js/main.860c42f9.chunk.js"
   ]
 }
