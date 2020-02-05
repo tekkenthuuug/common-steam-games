@@ -2,9 +2,9 @@ import React from "react";
 
 import GameCard from "../GameCard/GameCard";
 
-import "./CommonGamesField.css";
+import "./CommonGames.css";
 
-export default function CommonGamesField ({ setCommonGames, commonGames }) {
+export default function CommonGames ({ setCommonGames, commonGames }) {
 	commonGames = commonGames.filter((game) => !game.name.toLowerCase().split(" ").includes("test"));
 	return (
 		<>

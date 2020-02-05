@@ -2,7 +2,7 @@ import React, { useState, Suspense, lazy } from "react";
 import "./App.css";
 
 import FormElement from "./components/FormElement/FormElement";
-const CommonGamesField = lazy(() => import("./components/CommonGamesField/CommonGamesField"));
+const CommonGames = lazy(() => import("./components/CommonGames/CommonGames"));
 
 function App () {
 	const [ commonGames, setCommonGames ] = useState([]);
@@ -14,7 +14,7 @@ function App () {
 				</header>
 				<Suspense fallback={<div>Loading...</div>}>
 					{commonGames.length ? (
-						<CommonGamesField commonGames={commonGames} setCommonGames={setCommonGames} />
+						<CommonGames commonGames={commonGames} setCommonGames={setCommonGames} />
 					) : (
 						<FormElement setCommonGames={setCommonGames} />
 					)}

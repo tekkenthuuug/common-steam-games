@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./GameCard.css";
+import steamBlured from "../../img/steamBlured.png";
 
 function checkImageExists (hq, lq, setImgSrc) {
 	var imageData = new Image();
@@ -38,7 +39,7 @@ export default function GameCard ({ game }) {
 					</span>
 				</div>
 			</div>
-			<img src={imgSrc} alt="Game logo" title={game.name} className="card" />
+			<img src={imgSrc || steamBlured} alt="Game logo" title={game.name} className="card" />
 		</div>
 	);
 }

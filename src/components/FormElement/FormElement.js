@@ -12,22 +12,7 @@ const initialUser = {
 };
 
 const initialState = {
-	users : [
-		{
-			steamid    : "",
-			name       : "",
-			profileurl : "",
-			avatar     : "",
-			request    : undefined
-		},
-		{
-			steamid    : "",
-			name       : "",
-			profileurl : "",
-			avatar     : "",
-			request    : undefined
-		}
-	]
+	users : [ Object.assign({}, initialUser), Object.assign({}, initialUser) ]
 };
 
 export class FormElement extends Component {
@@ -81,9 +66,13 @@ export class FormElement extends Component {
 			});
 	};
 
+	deleteLastSlash = (url) => {
+		return url[url.length - 1] === "/" ? url.slice(0, url.length - 1) : url;
+	};
+
 	isInputValid = (input) => {
-		const inputArr = input.split("/");
-		if (inputArr.length - inputArr.indexOf("id") === 2 && inputArr[inputArr.length - 1] !== "") {
+		const inputArr = this.deleteLastSlash(input).split("/");
+		if (inputArr.length - inputArr.indexOf("id") === 2) {
 			return true;
 		}
 		return false;
@@ -111,27 +100,15 @@ export class FormElement extends Component {
 		this.setState({ users: usersClone });
 	};
 
-	findCommonElements = (arr) => {
-		// Sorts array by length of elements DESC
-		arr.sort((a, b) => {
-			return b.length - a.length;
+	findCommonObjectsByName = (arr) => {
+		let games = [];
+		arr.forEach((arr) => {
+			games = games.concat(arr);
 		});
-		let result = [];
-		for (let i = 1; i < arr[0].length; i++) {
-			let match = 0;
-			for (let g = 0; g < arr.length; g++) {
-				for (let t = 0; t < arr[g].length; t++) {
-					if (arr[g][t].appID === arr[0][i].appID) {
-						match++;
-					}
-					if (match === arr.length) {
-						match = 0;
-						result.push(arr[0][i]);
-					}
-				}
-			}
-		}
-		return result;
+		games = games.map((el) => el.name);
+		const arrNoDuplicates = Array.from(new Set(games));
+		const commonGames = arrNoDuplicates.filter((el) => games.indexOf(el) !== games.lastIndexOf(el));
+		return arr[0].filter((el) => commonGames.includes(el.name));
 	};
 
 	fetchGames = () => {
@@ -151,7 +128,7 @@ export class FormElement extends Component {
 		})
 			.then((response) => response.json())
 			.then((data) => {
-				this.props.setCommonGames(this.findCommonElements(data));
+				this.props.setCommonGames(this.findCommonObjectsByName(data));
 			});
 	};
 

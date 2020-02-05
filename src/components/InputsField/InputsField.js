@@ -1,13 +1,13 @@
 import React from "react";
 import "./InputsField.css";
-import IndInput from "../IndInput/IndInput";
+import InputBox from "../InputBox/InputBox";
 
 export default function InputsField ({ removeInput, getUserIfValid, users }) {
 	return (
 		<div className="inputs">
 			{users.map((user, index) => {
 				return (
-					<IndInput key={index} id={index} removeInput={removeInput} getUserIfValid={getUserIfValid} user={user} />
+					<InputBox key={index} id={index} removeInput={removeInput} getUserIfValid={getUserIfValid} user={user} />
 				);
 			})}
 		</div>
