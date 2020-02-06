@@ -16,6 +16,7 @@ export default function InputBox ({ removeInput, getUserIfValid, id, user }) {
 		<div className="section-container">
 			<div className="flex-centered input">
 				<input
+					aria-label="Steam URL input"
 					type="text"
 					className="input-url"
 					placeholder="Steam URL"
