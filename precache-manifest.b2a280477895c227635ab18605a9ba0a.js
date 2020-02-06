@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f2fcf42e9f4601cb08888a8708a306c0",
+    "revision": "8dfd715c91ac5eefc0a10bf274347a05",
     "url": "/common-steam-games/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/common-steam-games/static/css/3.e8c5070c.chunk.css"
   },
   {
-    "revision": "6052fe8b81d8753b5796",
+    "revision": "0d360f6dde4246819f40",
     "url": "/common-steam-games/static/css/main.81265a66.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/common-steam-games/static/js/3.592afe57.chunk.js"
   },
   {
-    "revision": "6052fe8b81d8753b5796",
-    "url": "/common-steam-games/static/js/main.860c42f9.chunk.js"
+    "revision": "0d360f6dde4246819f40",
+    "url": "/common-steam-games/static/js/main.1f453fd9.chunk.js"
   },
   {
     "revision": "f6bb6c1fec84743dd647",
