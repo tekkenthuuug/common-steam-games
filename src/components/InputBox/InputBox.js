@@ -3,7 +3,7 @@ import "./InputBox.css";
 import close from "../../img/close.svg";
 import steamUnknown from "../../img/steamUnknown.jpg";
 
-export default function InputBox ({ removeInput, getUserIfValid, id, user }) {
+function InputBox ({ removeInput, getUserIfValid, id, user }) {
 	const name = user.name ? (
 		<a href={user.profileurl} target="_blank" rel="noopener noreferrer">
 			{user.name}
@@ -44,3 +44,5 @@ export default function InputBox ({ removeInput, getUserIfValid, id, user }) {
 		</div>
 	);
 }
+
+export default React.memo(InputBox);
