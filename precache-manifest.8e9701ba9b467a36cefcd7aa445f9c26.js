@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8dfd715c91ac5eefc0a10bf274347a05",
+    "revision": "de12358ee652ec233223728909500dc5",
     "url": "/common-steam-games/index.html"
   },
   {
-    "revision": "3672d245ea88ea33b138",
+    "revision": "00f70762870788110b4f",
     "url": "/common-steam-games/static/css/3.e8c5070c.chunk.css"
   },
   {
-    "revision": "0d360f6dde4246819f40",
+    "revision": "60455b9a4d3ee181633c",
     "url": "/common-steam-games/static/css/main.81265a66.chunk.css"
   },
   {
-    "revision": "54f2a23b6c6c8767bdf5",
-    "url": "/common-steam-games/static/js/2.e1c1ad51.chunk.js"
+    "revision": "dedf3d5c9bcf9c7f3aa8",
+    "url": "/common-steam-games/static/js/2.418663c2.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/common-steam-games/static/js/2.e1c1ad51.chunk.js.LICENSE"
+    "url": "/common-steam-games/static/js/2.418663c2.chunk.js.LICENSE"
   },
   {
-    "revision": "3672d245ea88ea33b138",
-    "url": "/common-steam-games/static/js/3.592afe57.chunk.js"
+    "revision": "00f70762870788110b4f",
+    "url": "/common-steam-games/static/js/3.d2042f07.chunk.js"
   },
   {
-    "revision": "0d360f6dde4246819f40",
-    "url": "/common-steam-games/static/js/main.1f453fd9.chunk.js"
+    "revision": "60455b9a4d3ee181633c",
+    "url": "/common-steam-games/static/js/main.466e8480.chunk.js"
   },
   {
-    "revision": "f6bb6c1fec84743dd647",
-    "url": "/common-steam-games/static/js/runtime-main.c5a1b2df.js"
+    "revision": "c3f67443f93c098d57ff",
+    "url": "/common-steam-games/static/js/runtime-main.4ba97bba.js"
   },
   {
     "revision": "88ca3965975baed9535dc3d20e0ced05",
