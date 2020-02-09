@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/common-steam-games/static/css/main.8bf48ae3.chunk.css",
-    "main.js": "/common-steam-games/static/js/main.f4ea97d7.chunk.js",
-    "main.js.map": "/common-steam-games/static/js/main.f4ea97d7.chunk.js.map",
+    "main.js": "/common-steam-games/static/js/main.fc310172.chunk.js",
+    "main.js.map": "/common-steam-games/static/js/main.fc310172.chunk.js.map",
     "runtime-main.js": "/common-steam-games/static/js/runtime-main.5faa26ec.js",
     "runtime-main.js.map": "/common-steam-games/static/js/runtime-main.5faa26ec.js.map",
     "static/js/2.9132a10a.chunk.js": "/common-steam-games/static/js/2.9132a10a.chunk.js",
     "static/js/2.9132a10a.chunk.js.map": "/common-steam-games/static/js/2.9132a10a.chunk.js.map",
     "index.html": "/common-steam-games/index.html",
-    "precache-manifest.ce895b7271a39b164e6cc221afe225ca.js": "/common-steam-games/precache-manifest.ce895b7271a39b164e6cc221afe225ca.js",
+    "precache-manifest.9be0e0f8716d4319f03b1b8903e0b573.js": "/common-steam-games/precache-manifest.9be0e0f8716d4319f03b1b8903e0b573.js",
     "service-worker.js": "/common-steam-games/service-worker.js",
     "static/css/main.8bf48ae3.chunk.css.map": "/common-steam-games/static/css/main.8bf48ae3.chunk.css.map",
     "static/js/2.9132a10a.chunk.js.LICENSE": "/common-steam-games/static/js/2.9132a10a.chunk.js.LICENSE",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.5faa26ec.js",
     "static/js/2.9132a10a.chunk.js",
     "static/css/main.8bf48ae3.chunk.css",
-    "static/js/main.f4ea97d7.chunk.js"
+    "static/js/main.fc310172.chunk.js"
   ]
 }
