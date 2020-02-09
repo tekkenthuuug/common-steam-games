@@ -11,17 +11,20 @@
 }
 
 .back-button {
-  background-color: rgb(109, 106, 71);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
   color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(109, 106, 71);
   height: 40px;
   padding: 10px;
   width: 30%;
   margin-top: 16px;
   border-radius: 10px;
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  transition: all 0.3s linear;
+  transition: background-color 0.3s linear;
   &:hover {
     background-color: rgba(233, 228, 155, 0.5);
   }
